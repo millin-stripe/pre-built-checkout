@@ -10,15 +10,15 @@ const Checkout = () => {
             <h4>Purchase a Pasha original photo</h4>
             <div className="pasha-image">
               <img
-                alt="Random asset from Picsum"
-                src="https://picsum.photos/280/320?random=4"
+                alt="Taylor Made P790 Irons - 1059.00"
+                src="https://www.taylormadegolf.com/dw/image/v2/AAIS_PRD/on/demandware.static/-/Sites-tmag-master-catalog/en_US/v1650916125539/zoom/TA228_zoom_D.jpg?sw=900&sh=900&sm=fit"
                 width="140"
                 height="160"
               />
             </div>
           </div>
 
-          <form action="/create-checkout-session" method="POST">
+          <form action="https://3lc8dzu1vb.execute-api.us-east-1.amazonaws.com/checkout?price_id=price_1Kr7MpHTpuTBmw2oR0Nnnile" method="GET">
             <button id="submit" role="link">Buy</button>
           </form>
         </section>
