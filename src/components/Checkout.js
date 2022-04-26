@@ -6,8 +6,8 @@ const Checkout = () => {
       <div className="sr-main">
         <section className="container">
           <div>
-            <h1>Single photo</h1>
-            <h4>Purchase a Pasha original photo</h4>
+            <h1>Taylor Made P790 Irons</h1>
+            <h4>$ 1059.00</h4>
             <div className="pasha-image">
               <img
                 alt="Taylor Made P790 Irons - 1059.00"
