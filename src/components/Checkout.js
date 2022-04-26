@@ -18,8 +18,8 @@ const Checkout = () => {
             </div>
           </div>
 
-          <form action="https://3lc8dzu1vb.execute-api.us-east-1.amazonaws.com/checkout?price_id=price_1Kr7MpHTpuTBmw2oR0Nnnile" method="GET">
-            <button id="submit" role="link">Buy</button>
+          <form action="https://3lc8dzu1vb.execute-api.us-east-1.amazonaws.com/checkout?price_id=price_1Kr7MpHTpuTBmw2oR0Nnnile" method="POST">
+            <button id="submit" role="link">Buy Now</button>
           </form>
         </section>
       </div>
